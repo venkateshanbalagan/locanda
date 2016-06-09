@@ -42,7 +42,7 @@ public class AccountAction extends ActionSupport {
 	)
 	public String goCreateAccount() {
 
-		return SUCCESS;
+		return SUCCESS; 
 	}
 	
 	@Actions(
@@ -56,7 +56,7 @@ public class AccountAction extends ActionSupport {
 			addActionError(getText("warningDuplicateUser"));
 			return INPUT;
 		}
-		this.getUser().setPassword("devops1");
+		this.getUser().setPassword("devops2");
 		this.getUser().setCreationDate(new Date());
 		this.getUserService().insertUser(this.getUser());
 		return SUCCESS;
