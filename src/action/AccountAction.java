@@ -56,7 +56,7 @@ public class AccountAction extends ActionSupport {
 			addActionError(getText("warningDuplicateUser"));
 			return INPUT;
 		}
-		this.getUser().setPassword("cognizant");
+		this.getUser().setPassword("devops");
 		this.getUser().setCreationDate(new Date());
 		this.getUserService().insertUser(this.getUser());
 		return SUCCESS;
