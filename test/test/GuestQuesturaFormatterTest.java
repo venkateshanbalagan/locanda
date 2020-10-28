@@ -16,7 +16,7 @@ public class GuestQuesturaFormatterTest {
 	public void setUp() throws Exception {
 		m = new GuestQuesturaFormatter();
 		m.setTipoAllogiato(14);
-		m.setDataArrivo(new Date("02/05/2011"));
+		m.setDataArrivo(new Date("02/05/2019"));
 		m.setCognome("Mura");
 		m.setNome("Tore");
 		m.setSesso("M");
